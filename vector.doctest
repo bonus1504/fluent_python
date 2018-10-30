@@ -1,4 +1,22 @@
+>>> from vector import Vector
+
+Сложение векторов
 >>> v1 = Vector(2, 4)
 >>> v2= Vector(2, 1)
 >>> v1 + v2
->>> Vector(4, 5)
+Vector(4, 5)
+
+Возвращаем модуль вектора
+>>> v = Vector(3, 4)
+>>> abs(v)
+5.0
+
+Умножение вектора на скаляр
+>>> v = Vector(3, 4)
+>>> v * 3
+Vector(9, 12)
+
+Проверка на истинность
+>>> v = Vector(0, 0)
+>>> bool(v)
+False
